@@ -22,6 +22,11 @@ typedef struct {
 void imprimirPregunta(Pregunta pregunta) {
     //AGREGAR LA IMPLEMENTACIÓN PARA IMPRIMIR EN CONSOLA LA PREGUNTA Y LAS OPCIONES.
     //NO MODIFIQUES LA FIRMA DE LA FUNCIÓN.
+    int i;//Variable para contador
+    printf("%s",pregunta.pregunta);//Imprime las preguntas
+    for(i=0;i<4;i++)//Hace un ciclo para imprimir las respuestas
+        printf("%s",pregunta.opciones[i]);
+    printf("\n");//Imprime un salto de linea para que se vea bonito :)
 }
 
 /**
