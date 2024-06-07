@@ -47,6 +47,12 @@ char capturarRespuesta() {
 
 int verificarRespuesta(Pregunta pregunta, char respuesta) {
     //AGREGAR LA IMPLEMENTACIÓN PARA VERIFICAR SI RESPONDIÓ BIEN LA PREGUNTA.
+    if(pregunta==pregunta.respuestaCorrecta){
+        return 1;
+    }
+    else{
+        return 0;
+    }
     //NO MODIFIQUES LA FIRMA DE LA FUNCIÓN. 
 }
 
